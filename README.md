@@ -1,8 +1,8 @@
 # printf
-A simple printf function built by Yosef Zawedu and Mohammed Bheser Hassen(myself) for Alx software Engineering School
+A simple printf function built by Mohammed Bheser Hassen and Yosef Zewdu
 
 #WELCOME
-A rebuild of the standard printf function in C. Our project required a function capable of printing with the %d, %c, %s, and %% specifiers to standard output. printf returns the number of characters printed (excluding the null byte at the end of strings). We were not asked to handle flag characters, field width, precision, or length.
+A rebuild of the standard printf function in C. Our project required a function capable of printing with the %d, %c, %s, and %% specifiers to standard output. printf returns the number of characters printed (excluding the null byte at the end of strings).
 
 # Format Specifiers
 Our team chose to add %x ,%X, %b, %o, %u, %r, %R, and %p formatting. We relied on the library we have been building at Alx as well as new concepts gathered during this project.
@@ -36,13 +36,4 @@ u - unsigned
 
 p - pointer
 
-F - expletive
 
-# Examples
-Character: printf("%c", 'A'); Output:: A
-
-String: printf("%s", 'This is a string.'); Output: This is a string.
-
-Integer: printf("%i", 5); Output: 5
-
-Expletive: printf("%F", anything); Output: FUCK
